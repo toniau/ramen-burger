@@ -1,0 +1,12 @@
+<%- contentFor('order') %>
+<h2> Place Your Order! </h2>
+
+<form action="/order" method="POST">
+  First Name:
+  <input type="text" name="first">
+  <br>
+  Last Name:
+  <input type="text" name="last">
+
+  <input type="submit" value="Submit">
+</form>
